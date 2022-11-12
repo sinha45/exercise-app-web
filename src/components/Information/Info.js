@@ -8,6 +8,15 @@ const Info = () => {
             <div className='mt-24'>
                 <h2 className='text-4xl font-semibold'>Add a Break</h2>
             </div>
+            <div className='bg-slate-300 p-4 m-12 rounded-lg'>
+
+                <button className='drop-shadow-md hover:bg-green-500 bg-white p-3 rounded-full mr-5 ml-2'>10m</button>
+                <button className='drop-shadow-md hover:bg-green-500 bg-white p-3 rounded-full mr-5'>20m</button>
+                <button className=' drop-shadow-md hover:bg-green-500 bg-white p-3 rounded-full mr-5'>30m</button>
+                <button className='drop-shadow-md hover:bg-green-500 bg-white p-3 rounded-full mr-5'>40m</button>
+
+
+            </div>
 
 
 
