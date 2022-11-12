@@ -17,7 +17,39 @@ const Info = () => {
 
 
             </div>
+            <div>
+                <h2 className='text-4xl font-semibold'>Exercise Details</h2>
+            </div>
+            <div className='text-2xl bg-slate-300 p-4 m-12 rounded-lg'>
 
+                <div className='flex flex-row gap-12'>
+                    <h3 className='font-semibold'>Exercise Time</h3>
+                    <h3 className='text-slate-400 ml-3'><span>00</span><span className='ml-2'>Minutes</span></h3>
+
+
+
+                </div>
+
+
+
+            </div>
+            <div className=' text-2xl bg-slate-300 p-4 m-12 rounded-lg'>
+
+                <div className='flex flex-row gap-12'>
+                    <h3 className='font-semibold'>Break Time</h3>
+                    <h3 className='text-slate-400 ml-9'><span>00</span><span className='ml-2'>Minutes</span></h3>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+            <button className='bg-indigo-500 rounded-lg p-5 mt-12'><h2 className='text-white text-2xl'>Activity Completed</h2></button>
 
 
         </div>
